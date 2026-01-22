@@ -1,0 +1,62 @@
+.menu{
+     background: linear-gradient(
+        160deg,
+        #1e1e3f,
+        #3a3f9e,
+        #7b5cd6,
+        #c084d8
+    );
+    font-family: calibri; padding-right: 15px; padding-left: 15px;
+
+}
+
+.menudiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo a{
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+
+button {
+    background-color: purple;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
